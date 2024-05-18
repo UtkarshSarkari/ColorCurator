@@ -1,0 +1,17 @@
+{
+    "name": "Color Curator",
+    "description": "Color Picker Chrome Extention",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Click to get color",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "scripting", "storage"],
+    "icons": {
+        "128": "./color-wheel.png"
+    }
+}
